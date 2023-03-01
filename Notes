@@ -1,0 +1,7 @@
+1) First devops usecase with docker
+Deploy your first docker container?
+kubectl create deployment hello-world-rest-api --image=vsknalli/hello-world-rest-api:0.0.1.RELEASE
+kubectl expose deployment hello-world-rest-api --type=LoadBalancer --port=8080
+http://192.168.100.214:31181/hello-world-bean
+# kubectl get events -->
+
